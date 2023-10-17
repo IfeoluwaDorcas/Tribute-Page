@@ -1,0 +1,88 @@
+body{
+    font-family: Poppins;
+    font-size: 16px;
+}
+main {
+    background-color: #f4f4f4;
+}
+
+.name, .description, #img-caption, .wiki-page {
+    text-align: center;
+}
+
+.name {
+    font-size: 2rem;
+    padding-top: 40px;
+    padding-bottom: 0;
+}
+
+#img-caption {
+    font-size: 0.875rem;
+    padding-bottom: 5px;
+}
+
+img {
+    max-width: 90%;
+    display: block;
+}
+
+#img-div {
+    background-color: white;
+    width: 95%;
+    margin: auto;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+}
+
+#imagee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#tribute-info {
+    max-width: 600px;
+    text-align: justify;
+    margin: auto;
+}
+
+li {
+    line-height: 2.2;
+    padding: 5px;
+}
+
+.heading {
+    text-align: center;
+    padding: 30px;
+}
+
+.year {
+    font-weight: bold;
+}
+
+.quote, .source {
+    font-style: italic;
+    font-weight: 420;
+}
+
+.quote-box {
+    max-width: 570px;
+    text-align: justify;
+    margin: auto;
+    font-size: 0.875rem;
+    line-height: 2;
+}
+
+.quote, .source {
+    text-align: justify;   
+}
+
+.wiki-page {
+    padding-top: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+}
